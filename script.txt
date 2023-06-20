@@ -1,0 +1,24 @@
+<script data-cfasync="false" type="text/javascript" id="clever-core">
+(function (document, window) {
+  var a,
+    c = document.createElement('script');
+  c.id = 'CleverCoreLoader58218';
+  c.src = '//scripts.cleverwebserver.com/1947db12994f98e1acd39c90b50b44b7.js';
+  c.async = !0;
+  c.type = 'text/javascript';
+  c.setAttribute('data-target', window.name);
+  c.setAttribute('data-callback', '%%VIEW_URL_UNESC%%');
+  try {
+    a =
+      parent.document.getElementsByTagName('script')[0] ||
+      document.getElementsByTagName('script')[0];
+  } catch (e) {
+    a = !1;
+  }
+  a ||
+    (a =
+      document.getElementsByTagName('head')[0] ||
+      document.getElementsByTagName('body')[0]);
+  a.parentNode.insertBefore(c, a);
+})(document, window);
+</script>
